@@ -1,0 +1,202 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.nav{
+    display: flex;
+    justify-content: space-between;
+    height: 60px;
+    width: 98%;
+    margin: auto;
+    
+}
+
+.nav .left{
+    display: flex;
+}
+
+.nav .left p{
+    margin-right: 15px;
+   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+   color: rgb(248, 150, 174);
+   font-size: 19px;
+}
+.work{
+    padding: 10px 20px;
+    background-color: pink;
+    border-color: rgb(247, 114, 185);
+    border-radius: 30px;
+}
+.signin{
+    padding: 10px 20px;
+    background-color: pink;
+    border-color: rgb(246, 116, 185);
+    border-radius: 30px;
+}
+
+.nav-img{
+    margin-right: 20px;
+    height: 60px;
+}
+
+.git{
+    display: flex;
+    justify-content: space-between;
+    width: 70%;
+    margin: auto;
+    margin-top: 50px;
+
+
+}
+.storage{
+    font-size: 20px;
+    color: rgb(240, 162, 170);
+    width: 45%;
+}
+.image{
+   width: 45%;
+    margin: auto;
+
+}
+.drive{
+    padding: 20px 30px;
+    background-color: rgb(130, 232, 171);
+   border-color: rgb(87, 184, 132);
+    border-radius: 25px;
+}
+
+
+.image img{
+    height: 350px;
+}
+
+.nav .left p{
+    margin-top: 20px;
+}
+
+.work, .signin{
+    margin-top: 10px;
+}
+
+.storage .right{
+    margin-top: 20px;
+}
+
+
+.classwork .image{
+   width: 45%;
+
+}
+
+.books {
+    width: 86%;
+    margin: auto;
+    margin-bottom: 30px;
+    color: rgb(114, 151, 225);
+    font-size: medium;
+}
+
+.games {
+    width: 86%;
+    margin: auto;
+    margin-bottom: 30px;
+    color: rgb(222, 217, 89);
+    font-size: medium;
+
+}
+.hate {
+    width: 86%;
+    margin: auto;
+    margin-bottom: 30px;
+    color: rgb(222, 120, 89);
+    font-size: medium;
+
+}
+.lies {
+    width: 86%;
+    margin: auto;
+    margin-bottom: 30px;
+    color: rgb(89, 222, 93);
+    font-size: medium;
+
+}
+.gemini {
+    margin: auto;
+    margin-bottom: 40px;
+ width: 80%;
+ color: rgb(99, 181, 235);
+ font-size: larger;
+ 
+}
+
+/* Footer Styling */
+footer {
+    background-color: hotpink;
+    color: black;
+    text-align: center;
+    padding: 20px 0;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.footer-content {
+    max-width: 800px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.footer-links {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    gap: 15px;
+    margin-top: 10px;
+}
+
+.footer-links a {
+    color: black;
+    text-decoration: wavy;
+    font-size: 14x;
+    transition: 0.5s ease-in-out;
+}
+
+.footer-links a:hover {
+    color: white;
+}
+
+/*Media Queries*/
+@media(min-width:601px) and (max-width: 1024px){
+    .git{
+        display: block;
+        justify-content:center;
+    width: 100% !important;
+    margin: auto;
+    text-align: center;
+    margin-top: 30px;
+    }
+
+    .storage{
+        margin: auto;
+        width: 80%;
+        margin-bottom: 20px;
+    }
+}
+
+@media (max-width: 600px){
+    .git{
+        display: block;
+        justify-content:center;
+    width: 100% !important;
+    margin: auto;
+    text-align: center;
+    margin-top: 30px;
+    }
+
+    .storage{
+        margin: auto;
+        width: 80%;
+        margin-bottom: 20px;
+    }
+}

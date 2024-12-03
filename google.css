@@ -1,0 +1,264 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+a{
+    text-decoration: none;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    height: 60px;
+    width: 98%;
+    margin: auto;
+  }
+
+  .nav .left {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+
+  .nav .left p {
+    margin-right: 15px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: rgb(248, 150, 174);
+    font-size: 19px;
+  }
+
+  .work {
+    padding: 10px 20px;
+    background-color: pink;
+    border-color: rgb(247, 114, 185);
+    border-radius: 30px;
+  }
+
+  .signin {
+    padding: 10px 20px;
+    background-color: pink;
+    border-color: rgb(246, 116, 185);
+    border-radius: 30px;
+  }
+
+  .nav .left img {
+    margin-right: 20px;
+  }
+
+.git{
+    display: flex;
+    justify-content: space-between;
+    width: 70%;
+    margin: auto;
+    margin-top: 50px;
+
+
+}
+.storage{
+    font-size: 30px;
+    color: rgb(126, 169, 239);
+    width: 45%;
+}
+.image{
+   width: 45%;
+    margin: auto;
+
+}
+.drive{
+    padding: 20px 30px;
+    background-color: rgb(230, 173, 199);
+   border-color: rgb(252, 130, 191);
+    border-radius: 25px;
+    transition: background-color 0.4s ease-in-out; /*Adds smooth color change*/
+}
+ .drive:hover{
+    color: rgb(71, 3, 29);
+    background-color: rgb(226, 68, 153); /*changes color on hover*/
+ }
+.imggg {
+    width: 200px;
+    transition: transform 0.6s ease, opacity 0.6s ease;
+
+}
+.imggg:hover {
+   transform: scale(1.1);
+   opacity: 0.8;
+}
+.signout{
+    padding: 20px 30px;
+    background-color: rgb(230, 154, 189);
+    border-color: rgb(238, 110, 197);
+    border-radius: 25px;
+}
+
+.image img{
+    height: 350px;
+}
+
+.nav .left p{
+    margin-top: 20px;
+}
+
+.work, .signin{
+    margin-top: 10px;
+}
+
+.storage .right{
+    margin-top: 20px;
+}
+.classwork {
+    display: flex;
+    justify-content: space-between;
+    width: 70%;
+    margin: auto;
+    margin-top: 80px;
+    margin-bottom: 50px;
+}
+.classwork .image{
+   width: 45%;
+
+}
+.gemini {
+    margin: auto;
+ width: 45%;
+ color: hotpink;
+ font-size: larger;
+ 
+}
+
+/* Footer Styling */
+footer {
+    background-color: hotpink;
+    color: black;
+    text-align: center;
+    padding: 20px 0;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.footer-content {
+    max-width: 800px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.footer-links {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    gap: 15px;
+    margin-top: 10px;
+}
+
+.footer-links a {
+    color: black;
+    text-decoration: wavy;
+    font-size: 14x;
+    transition: 0.5s ease-in-out;
+}
+
+.footer-links a:hover {
+    color: white;
+}
+.animate-box {
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+    background-color: rgb(109, 215, 119);
+    position: relative;
+    animation: move 5s ease-in-out infinite; /*repeats forever*/
+}
+
+@keyframes move {
+    0% { bottom: 0;}
+    50% { bottom: 100px; }
+    100% {bottom:0; }
+}
+   
+/*Media Quaries*/
+@media(min-width:601px) and (max-width: 1024px){
+    .git{
+        display: block;
+        justify-content:center;
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    }
+    .storage{
+        font-size: 30px;
+        color: rgb(126, 169, 239);
+        width: 80%;
+        margin-top: 50px;
+    }
+    .image{
+        width: 100%;
+         margin: auto;
+         text-align: center;
+         margin-top: 20px;
+     
+     }
+
+     .classwork{
+        display:flex;
+        flex-direction: column-reverse;
+     }
+
+     .classwork .image{
+        width: 80%;
+     
+     }
+
+     .gemini {
+        margin: auto;
+     width: 80%;
+     color: hotpink;
+     font-size: larger;
+     text-align: center;
+     
+    }
+}
+
+@media(max-width:600px){
+    .git{
+        display: block;
+        justify-content:center;
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    }
+    .storage{
+        font-size: 30px;
+        color: rgb(126, 169, 239);
+        width: 80%;
+        margin-top: 50px;
+    }
+    .image{
+        width: 100%;
+         margin: auto;
+         text-align: center;
+         margin-top: 20px;
+     
+     }
+
+     .classwork{
+        display:flex;
+        flex-direction: column-reverse;
+     }
+
+     .classwork .image{
+        width: 80%;
+     
+     }
+
+     .gemini {
+        margin: auto;
+     width: 80%;
+     color: hotpink;
+     font-size: larger;
+     text-align: center;
+     
+    }
+}
